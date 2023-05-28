@@ -1,10 +1,10 @@
-## Youtube Audio Downloader API.
+# Youtube Audio Downloader API.
 
-- use express js to prepare the download api.
+- Express Js
 
-0. Prepare the list of youtube videos to download
+1. Prepare the list of youtube videos to download
     - Execute the `script/urlextractor.js` from browser console by opening the playlist in youtube which will give list of videos like below.
-1. By invoking api below download the mp3 format songs for you in downloads folder.
+2. By invoking api below download the mp3 format songs for you in downloads folder.
 
 ### Start the server
 `yarn start`
