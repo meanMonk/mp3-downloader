@@ -6,6 +6,9 @@
     - Execute the `script/urlextractor.js` from browser console by opening the playlist in youtube which will give list of videos like below.
 1. By invoking api below download the mp3 format songs for you in downloads folder.
 
+### Start the server
+`yarn start`
+
 ```javascript
 
 var axios = require('axios');
@@ -37,6 +40,7 @@ axios(config)
 
 
 ```
+
 
 ### https://www.youtube.com/watch?v=ULcyLYD3o_M&list=PLO7-VO1D0_6M1xUjj8HxTxskouWx48SNw
 ```json
